@@ -14,7 +14,7 @@ url: "http://pelnae.github.io" # the base hostname & protocol for your site
 github_username:  pelnae
 facebook_username: pelnae
 excerpt_separator: <!--more-->
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: "page/:num"
 # Build settings
