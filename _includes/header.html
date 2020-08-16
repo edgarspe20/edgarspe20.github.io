@@ -1,30 +1,13 @@
-<div class="top-line"></div>
-<div class="container">
-<header>
-
-<div class="logo-img">
-  <img src="/assets/pictures/logo.png" />
+<div class="sidebar">
+	<div class="img"></div>
+	<ul class="sidebar-menu">
+		<li><a href="{{ '/' | prepend: site.baseurl }}" title="Sākums">sākums</a></li>
+		{% for my_page in site.pages %}
+			{% if my_page.title %}
+				<li>
+					<a href="{{ my_page.url | prepend: site.baseurl }}" title="{{ my_page.title }}">{{ my_page.title }}</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
 </div>
-    <div class="logo-text">
-      <h1 class="logo-title">
-        <a href="/">{{ site.title }}
-        </a>
-      </h1>
-      <p class="logo-description">
-        {{ site.description }}
-      </p>
-    </div>
-</header>
-    <div class="navigation">
-      <ul>
-        <li><a href="{{ "/" | prepend: site.baseurl }}">Sākums</a></li>
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <li>
-            <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-        <a class="rss2" href="{{ "/feed.xml" | prepend: site.baseurl }}"><img src="/assets/pictures/feed.png" /></a>
-    </div>

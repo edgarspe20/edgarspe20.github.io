@@ -1,19 +1,31 @@
 ---
 layout: default
 ---
-<div class="col-content">
-<div class="content-box">
-	<div class="content-header"></div>
-	<div class="content-wbg">
-		<div class="info">
-        <span class="day">{{ page.date | date: "%d" }}</span>
-        <span class="month">{{ page.date | date: "%b" }}</span>
-        <span class="year">{{ page.date | date: "%Y" }}</span>
-    </div>
-    <h2>{{ page.title }}</h2>
-
-    {{ content }}
-  </div>
-<div class="content-footer"></div>
-</div>
+<div class="post">
+	<h2>
+		<a href="{{ '/' | prepend: site.baseurl }}" title="Doties uz sākumu">
+			Sākums
+		</a>
+		&mdash;
+		{{ page.title }}
+	</h2>
+	<span class="post-info">
+		Publicēts {{ page.date | date: "%Y" }}. gada {{ page.date | date: "%-d" }}. 
+		{% assign m = page.date | date: "%-m" %}
+		{% case m %}
+			{% when '1' %}janvārī
+			{% when '2' %}februārī
+			{% when '3' %}martā
+			{% when '4' %}aprīlī
+			{% when '5' %}maijā
+			{% when '6' %}jūnijā
+			{% when '7' %}jūlijā
+			{% when '8' %}augustā
+			{% when '9' %}septembrī
+			{% when '10' %}oktobrī
+			{% when '11' %}novembrī
+			{% when '12' %}decembrī
+		{% endcase %}
+	</span>
+	{{ content }}
 </div>
