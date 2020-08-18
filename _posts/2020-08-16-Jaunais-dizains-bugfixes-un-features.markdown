@@ -22,6 +22,6 @@ Sapratu, ka nevaru nepalielīties ar šo:
 </div>
 {% endhighlight %}
 
-Tas ir nekas cits, kā [Syntax Highlighter'is][highlighter], kas škaisti krāsos mana koda paraugus šajā lapā.
+Tas ir nekas cits, kā [Syntax Highlighter'is][highlighter], kas skaisti krāsos mana koda paraugus šajā lapā.
 
 [highlighter]: https://mycyberuniverse.com/syntax-highlighting-jekyll.html "Syntax Highlighter"
