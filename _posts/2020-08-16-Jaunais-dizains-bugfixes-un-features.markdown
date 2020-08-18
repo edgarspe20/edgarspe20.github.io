@@ -16,7 +16,7 @@ Dizains ir samērā gatavs. Kā jau noteikti manāt, dizains ir [responsīvs][re
 
 Sapratu, ka nevaru nepalielīties ar šo:
 
-{% highlight html %}
+{% highlight html linenos %}
 <div class="mans-bloks">
 	<p>Šī ir mana rindkopa, ar kuru rādu piemēru, kā es rādīšu koda paraugu.</p>
 </div>

@@ -175,7 +175,25 @@ body {
 				font-size: 13px;
 				line-height: 20px;
 				letter-spacing: 0;
-				padding: 20px;
+				padding: 20px 10px;
+
+				pre {
+					max-width: 100%;
+					overflow: scroll;
+
+					@include desktop {
+						overflow: visible;
+					}
+				}
+
+				.gutter {
+					min-width: 20px;
+					opacity: .5;
+
+					@include desktop {
+						min-width: 30px;
+					}
+				}
 			}
 
 			blockquote {
