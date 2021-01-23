@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Par mani
+description: "Uzzini vairāk par mani!"
 permalink: /par_mani/
 ---
 
@@ -19,7 +20,7 @@ Esmu jaunietis, kas mīl mūziku un mājaslapu izstrādi. Mācos un studēju dat
 Labajā pusē redzami daži risinājumi, ko labprāt pielietoju, šeit pilnāks saraksts.
 
 * [**WordPress**](https://wordpress.org/) - ātrai un efektīvai vienkāršas mājaslapas izveidei
-* [**Jekyll**](https://jekyllrb.com/) - statiskām mājalapiņām (piemēram, GitHub Pages)
+* [**Jekyll**](https://jekyllrb.com/) - statiskām mājaslapām (piemēram, GitHub Pages)
 * [**Laravel**](https://laravel.com/) - ja neapmierina jau gatavi dzinēji, tiek izstrādāts individuāls risinājums
 * [**Bootstrap**](https://getbootstrap.com/) - dizains ekrāniem gan ar mazāku, gan ar lielāku izšķirtspēju (Responsive)
 * [**Foundation**](https://foundation.zurb.com/) - Responsive vajadzībai, vēl viens rīks

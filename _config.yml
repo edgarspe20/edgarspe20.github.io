@@ -21,3 +21,7 @@ paginate_path: "/page/:num"
 # Build settings
 markdown: kramdown
 highlighter: rouge
+locale: lv_LV
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate

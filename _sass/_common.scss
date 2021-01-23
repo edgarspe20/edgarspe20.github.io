@@ -138,8 +138,7 @@ body {
 
 		.post {
 			max-width: 100%;
-			margin-top: 20px;
-			margin-bottom: 20px;
+			margin-bottom: 5rem;
 			font-weight: 350;
 			font-size: 16px;
 			letter-spacing: 0;
@@ -150,10 +149,6 @@ body {
 				font-size: 18px;
 				letter-spacing: 1px;
 				line-height: 40px;
-			}
-
-			&:first-child {
-				margin-top: 0;
 			}
 
 			&:last-child {

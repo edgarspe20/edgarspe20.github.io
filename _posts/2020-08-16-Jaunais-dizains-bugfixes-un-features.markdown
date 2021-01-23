@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Jaunais dizains, bugfixes un features"
+description: "Arī Tev ir iespēja uzzināt par jaunā dizaina detaļām!"
+image: "assets/pictures/logo.png"
 date: 2020-08-17 00:34:22
 ---
 **Beidzot**

@@ -267,6 +267,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-seo-tag
   kramdown-parser-gfm
   wdm (>= 0.1.0)
 

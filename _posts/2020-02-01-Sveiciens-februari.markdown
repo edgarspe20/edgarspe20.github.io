@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sveiciens februārī!"
+description: "Par pārmaiņām manā mājaslapā!"
 date: 2020-02-01 01:22:22
 ---
 Ir pagājuši bez 15 dienām divi gadi, kopš izveidoju šo mājaslapu. Tāpat, kā manā dzīvē notikušas pārmaiņas, arī šo mājaslapu sagaida pārmaiņas. Gan dizainā, gan arī saturiski.
