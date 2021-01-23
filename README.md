@@ -1,5 +1,15 @@
 # PelnaE.GitHub.io
+---
+## Prerequisites
+---
+Jekyll requires the following:
 
-## My Website in Latvian
+* Ruby version 2.4.0 or higher
+* RubyGems
+* GCC and Make
 
-Using [Jekyll](https://jekyllrb.com/) and [Mysterious](https://dagrevis.deviantart.com/art/Mysterious-140480050).
+## How to set up
+---
+1. Clone repository
+2. Enter cloned repository directory
+3. `bundle exec jekyll serve`
