@@ -1,5 +1,5 @@
 # PelnaE.GitHub.io
-
+![Screenshot from 2021 January](/assets/pictures/Screenshot_2021-01-24%20PelnaE.png)
 ## Prerequisites
 
 ### Jekyll requires the following:
