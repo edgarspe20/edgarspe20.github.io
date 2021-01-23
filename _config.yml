@@ -10,7 +10,7 @@ title: PelnaE
 email: edgarspelna@gmail.com
 description: Web Development
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://pelnae.github.io" # the base hostname & protocol for your site
+url: "https://pelnae.github.io" # the base hostname & protocol for your site
 github_username:  pelnae
 facebook_username: pelnae
 excerpt_separator: <!--more-->
