@@ -2,7 +2,7 @@
 layout: page
 title: Par mani
 description: "Uzzini vairāk par mani!"
-permalink: /par_mani/
+permalink: /par-mani/
 ---
 
 ### Sveiki!
