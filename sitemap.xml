@@ -9,6 +9,9 @@
         </url>
     {% endfor %}
     <url>
-        <loc>{{ site.url }}/par-mani/</loc>
-     </url>
+	    <loc>{{ site.url }}/par-mani/</loc>
+	</url>
+	<url>
+		<loc>{{ site.url }}</loc>
+	</url>
 </urlset>
