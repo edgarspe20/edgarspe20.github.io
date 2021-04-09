@@ -3,6 +3,7 @@ layout: page
 title: Par mani
 description: "Uzzini vairāk par mani!"
 permalink: /par-mani/
+include_in_menu: true
 ---
 
 ### Sveiki!

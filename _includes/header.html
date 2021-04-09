@@ -3,7 +3,7 @@
 	<ul class="sidebar-menu">
 		<li><a href="{{ '/' | prepend: site.baseurl }}" title="Sākums">sākums</a></li>
 		{% for my_page in site.pages %}
-			{% if my_page.title %}
+			{% if my_page.include_in_menu == true %}
 				<li>
 					<a href="{{ my_page.url | prepend: site.baseurl }}" title="{{ my_page.title }}">{{ my_page.title }}</a>
 				</li>
