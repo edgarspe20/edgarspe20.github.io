@@ -16,7 +16,6 @@ domain: "pelnae.github.io"
 github_username:  pelnae
 facebook_username: pelnae
 excerpt_separator: <!--more-->
-plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: "/page/:num"
 # Build settings
